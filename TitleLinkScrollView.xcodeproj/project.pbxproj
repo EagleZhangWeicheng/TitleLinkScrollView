@@ -13,6 +13,12 @@
 		14849F0A20E0EBF20066A7B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14849F0920E0EBF20066A7B8 /* Assets.xcassets */; };
 		14849F0D20E0EBF20066A7B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14849F0B20E0EBF20066A7B8 /* LaunchScreen.storyboard */; };
 		14849F1020E0EBF20066A7B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F0F20E0EBF20066A7B8 /* main.m */; };
+		14849F1B20E0ECB30066A7B8 /* TitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F1720E0ECB10066A7B8 /* TitleCollectionViewCell.m */; };
+		14849F1C20E0ECB30066A7B8 /* TSContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F1820E0ECB10066A7B8 /* TSContentCollectionViewCell.m */; };
+		14849F2520E0ECCA0066A7B8 /* TitleLinkScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F2020E0ECCA0066A7B8 /* TitleLinkScrollView.m */; };
+		14849F2620E0ECCA0066A7B8 /* TitleLinkScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F2120E0ECCA0066A7B8 /* TitleLinkScrollViewController.m */; };
+		14849F2720E0ECCA0066A7B8 /* UIViewController+TitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F2220E0ECCA0066A7B8 /* UIViewController+TitleScrollView.m */; };
+		14849F2820E0ECCA0066A7B8 /* TitleLinkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F2320E0ECCA0066A7B8 /* TitleLinkView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		14849F0C20E0EBF20066A7B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14849F0E20E0EBF20066A7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14849F0F20E0EBF20066A7B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14849F1720E0ECB10066A7B8 /* TitleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleCollectionViewCell.m; sourceTree = "<group>"; };
+		14849F1820E0ECB10066A7B8 /* TSContentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSContentCollectionViewCell.m; sourceTree = "<group>"; };
+		14849F1920E0ECB20066A7B8 /* TSContentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSContentCollectionViewCell.h; sourceTree = "<group>"; };
+		14849F1A20E0ECB30066A7B8 /* TitleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleCollectionViewCell.h; sourceTree = "<group>"; };
+		14849F1D20E0ECCA0066A7B8 /* TitleLinkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleLinkView.h; sourceTree = "<group>"; };
+		14849F1E20E0ECCA0066A7B8 /* TitleLinkScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleLinkScrollViewController.h; sourceTree = "<group>"; };
+		14849F1F20E0ECCA0066A7B8 /* UIViewController+TitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TitleScrollView.h"; sourceTree = "<group>"; };
+		14849F2020E0ECCA0066A7B8 /* TitleLinkScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleLinkScrollView.m; sourceTree = "<group>"; };
+		14849F2120E0ECCA0066A7B8 /* TitleLinkScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleLinkScrollViewController.m; sourceTree = "<group>"; };
+		14849F2220E0ECCA0066A7B8 /* UIViewController+TitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TitleScrollView.m"; sourceTree = "<group>"; };
+		14849F2320E0ECCA0066A7B8 /* TitleLinkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleLinkView.m; sourceTree = "<group>"; };
+		14849F2420E0ECCA0066A7B8 /* TitleLinkScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleLinkScrollView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 		14849EFF20E0EBED0066A7B8 /* TitleLinkScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				14849F1620E0EC950066A7B8 /* TitleLinkScrollView */,
 				14849F0020E0EBED0066A7B8 /* AppDelegate.h */,
 				14849F0120E0EBED0066A7B8 /* AppDelegate.m */,
 				14849F0320E0EBED0066A7B8 /* ViewController.h */,
@@ -67,6 +86,25 @@
 				14849F0B20E0EBF20066A7B8 /* LaunchScreen.storyboard */,
 				14849F0E20E0EBF20066A7B8 /* Info.plist */,
 				14849F0F20E0EBF20066A7B8 /* main.m */,
+			);
+			path = TitleLinkScrollView;
+			sourceTree = "<group>";
+		};
+		14849F1620E0EC950066A7B8 /* TitleLinkScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				14849F1A20E0ECB30066A7B8 /* TitleCollectionViewCell.h */,
+				14849F1720E0ECB10066A7B8 /* TitleCollectionViewCell.m */,
+				14849F1920E0ECB20066A7B8 /* TSContentCollectionViewCell.h */,
+				14849F1820E0ECB10066A7B8 /* TSContentCollectionViewCell.m */,
+				14849F1D20E0ECCA0066A7B8 /* TitleLinkView.h */,
+				14849F2320E0ECCA0066A7B8 /* TitleLinkView.m */,
+				14849F2420E0ECCA0066A7B8 /* TitleLinkScrollView.h */,
+				14849F2020E0ECCA0066A7B8 /* TitleLinkScrollView.m */,
+				14849F1E20E0ECCA0066A7B8 /* TitleLinkScrollViewController.h */,
+				14849F2120E0ECCA0066A7B8 /* TitleLinkScrollViewController.m */,
+				14849F1F20E0ECCA0066A7B8 /* UIViewController+TitleScrollView.h */,
+				14849F2220E0ECCA0066A7B8 /* UIViewController+TitleScrollView.m */,
 			);
 			path = TitleLinkScrollView;
 			sourceTree = "<group>";
@@ -142,7 +180,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				14849F0520E0EBED0066A7B8 /* ViewController.m in Sources */,
+				14849F2620E0ECCA0066A7B8 /* TitleLinkScrollViewController.m in Sources */,
+				14849F1B20E0ECB30066A7B8 /* TitleCollectionViewCell.m in Sources */,
 				14849F1020E0EBF20066A7B8 /* main.m in Sources */,
+				14849F1C20E0ECB30066A7B8 /* TSContentCollectionViewCell.m in Sources */,
+				14849F2720E0ECCA0066A7B8 /* UIViewController+TitleScrollView.m in Sources */,
+				14849F2520E0ECCA0066A7B8 /* TitleLinkScrollView.m in Sources */,
+				14849F2820E0ECCA0066A7B8 /* TitleLinkView.m in Sources */,
 				14849F0220E0EBED0066A7B8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
