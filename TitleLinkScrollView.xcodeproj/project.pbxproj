@@ -19,6 +19,8 @@
 		14849F2620E0ECCA0066A7B8 /* TitleLinkScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F2120E0ECCA0066A7B8 /* TitleLinkScrollViewController.m */; };
 		14849F2720E0ECCA0066A7B8 /* UIViewController+TitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F2220E0ECCA0066A7B8 /* UIViewController+TitleScrollView.m */; };
 		14849F2820E0ECCA0066A7B8 /* TitleLinkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F2320E0ECCA0066A7B8 /* TitleLinkView.m */; };
+		14849F2B20E0EEF30066A7B8 /* SelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F2A20E0EEF30066A7B8 /* SelectTableViewController.m */; };
+		14849F2E20E0F28F0066A7B8 /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F2D20E0F28F0066A7B8 /* TSViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,10 @@
 		14849F2220E0ECCA0066A7B8 /* UIViewController+TitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TitleScrollView.m"; sourceTree = "<group>"; };
 		14849F2320E0ECCA0066A7B8 /* TitleLinkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleLinkView.m; sourceTree = "<group>"; };
 		14849F2420E0ECCA0066A7B8 /* TitleLinkScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleLinkScrollView.h; sourceTree = "<group>"; };
+		14849F2920E0EEF30066A7B8 /* SelectTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectTableViewController.h; sourceTree = "<group>"; };
+		14849F2A20E0EEF30066A7B8 /* SelectTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectTableViewController.m; sourceTree = "<group>"; };
+		14849F2C20E0F28F0066A7B8 /* TSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
+		14849F2D20E0F28F0066A7B8 /* TSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 				14849F0120E0EBED0066A7B8 /* AppDelegate.m */,
 				14849F0320E0EBED0066A7B8 /* ViewController.h */,
 				14849F0420E0EBED0066A7B8 /* ViewController.m */,
+				14849F2920E0EEF30066A7B8 /* SelectTableViewController.h */,
+				14849F2A20E0EEF30066A7B8 /* SelectTableViewController.m */,
+				14849F2C20E0F28F0066A7B8 /* TSViewController.h */,
+				14849F2D20E0F28F0066A7B8 /* TSViewController.m */,
 				14849F0620E0EBED0066A7B8 /* Main.storyboard */,
 				14849F0920E0EBF20066A7B8 /* Assets.xcassets */,
 				14849F0B20E0EBF20066A7B8 /* LaunchScreen.storyboard */,
@@ -182,9 +192,11 @@
 				14849F0520E0EBED0066A7B8 /* ViewController.m in Sources */,
 				14849F2620E0ECCA0066A7B8 /* TitleLinkScrollViewController.m in Sources */,
 				14849F1B20E0ECB30066A7B8 /* TitleCollectionViewCell.m in Sources */,
+				14849F2B20E0EEF30066A7B8 /* SelectTableViewController.m in Sources */,
 				14849F1020E0EBF20066A7B8 /* main.m in Sources */,
 				14849F1C20E0ECB30066A7B8 /* TSContentCollectionViewCell.m in Sources */,
 				14849F2720E0ECCA0066A7B8 /* UIViewController+TitleScrollView.m in Sources */,
+				14849F2E20E0F28F0066A7B8 /* TSViewController.m in Sources */,
 				14849F2520E0ECCA0066A7B8 /* TitleLinkScrollView.m in Sources */,
 				14849F2820E0ECCA0066A7B8 /* TitleLinkView.m in Sources */,
 				14849F0220E0EBED0066A7B8 /* AppDelegate.m in Sources */,

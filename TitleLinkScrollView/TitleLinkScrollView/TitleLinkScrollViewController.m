@@ -9,8 +9,7 @@
 
 
 #import "TitleLinkScrollViewController.h"
-#import "Data1ViewController.h"
-@interface TitleLinkScrollViewController ()<TitleLinkScrollViewDataSource>
+@interface TitleLinkScrollViewController ()
 
 @end
 
@@ -83,18 +82,15 @@
 -(UIViewController*)titleLinkScrollView:(TitleLinkScrollView*)titleLinkScrollView cellforSection:(NSInteger)section;
 {
 //    NSLog(@"dddddd");
-//    UIViewController *d1  = [[UIViewController alloc] init];
-    Data1ViewController *d1 = [[Data1ViewController alloc] init];
-//    CGFloat r = rand()%255 /255.0;
-//    CGFloat g = rand()%255 /255.0;
-//    CGFloat b = rand()%255 /255.0;
-//    d1.view.backgroundColor = [UIColor colorWithRed:r green:g blue:b alpha:1];
-    NSLog(@"init viewcontroller %@ section %ld",d1,section);
+    UIViewController *d1  = [[UIViewController alloc] init];
+    CGFloat r = (section * 10 + 10)%255 /255.0;
+    CGFloat g = (section * 30 + 30)%255 /255.0;
+    CGFloat b = (section * 60 + 60)%255 /255.0;
+    d1.view.backgroundColor = [UIColor colorWithRed:r green:g blue:b alpha:1];
     return d1;
 }
 
 -(NSString*)titleLinkScrollView:(TitleLinkScrollView*)titleLinkScrollView titleforSection:(NSInteger)section;{
-    NSLog(@"section title %ld ",section);
     return [NSString stringWithFormat:@"%ld",section+100];
 }
 

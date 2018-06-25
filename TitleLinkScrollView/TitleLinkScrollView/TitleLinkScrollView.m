@@ -94,7 +94,6 @@
 }
 
 -(void)resetTitleHeight{
-    NSLog(@"reset title height %f",self.titleHeight);
     _titleLinkView.frame = CGRectMake(0, 0, self.frame.size.width,self.titleHeight);
     CGRect frame = CGRectMake(0,self.titleHeight,self.frame.size.width,self.frame.size.height - self.titleHeight);
     _contentCollectionView.frame = frame;

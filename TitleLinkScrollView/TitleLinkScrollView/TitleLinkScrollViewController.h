@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "TitleLinkScrollView.h"
 
-@interface TitleLinkScrollViewController : UIViewController
+@interface TitleLinkScrollViewController : UIViewController <TitleLinkScrollViewDataSource>
 @property(nonatomic,strong)TitleLinkScrollView *titleLinkScrollView;
 @property(nonatomic)CGFloat titleHeight; //默认44
 @property(nonatomic)NSInteger titleShowCount; //最大为4

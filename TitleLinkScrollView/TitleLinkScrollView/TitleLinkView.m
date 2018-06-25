@@ -61,13 +61,11 @@
 }
 
 -(void)moveToSelectIndex:(NSInteger)selectIndex{
-    NSLog(@" moveToSelectIndex selectIndex %ld",selectIndex);
     if (self.collectionView.visibleCells.count > 0) {
         NSInteger index = -1;
         NSArray *minAndMaxAr = [self minAndMaxInVisibleCells];
         NSInteger minRow = [[minAndMaxAr objectAtIndex:0] integerValue];
         NSInteger maxRow = [[minAndMaxAr objectAtIndex:1] integerValue];
-        NSLog(@"minRow %ld ,maxRow.row %ld",minRow,maxRow);
         
         if (selectIndex <= minRow + 1 ) {
             index = selectIndex  - 1;
@@ -81,7 +79,6 @@
         }
         
         if (index != -1) {
-            NSLog(@" selectIndex + 1 %ld",index);
             CGFloat w = self.titleShowCount == 0 ? 0:self.bounds.size.width / self.titleShowCount;
             [self.collectionView setContentOffset:CGPointMake(w * index, 0) animated:true];
         }
@@ -112,8 +109,6 @@
         CGFloat w = _titleShowCount == 0 ? 0:self.bounds.size.width / _titleShowCount;
         _identifyView.frame = CGRectMake(0, self.bounds.size.height-1, w, 1);
         _identifyViewFrame = _identifyView.frame;
-
-        NSLog(@"_identifyView.frame %@",NSStringFromCGRect(_identifyView.frame));
     }
 }
 
