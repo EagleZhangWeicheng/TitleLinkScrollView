@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		146CDAA220E4CBBE003B7AB3 /* TitleLinkScrollView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 146CDAA120E4CBBE003B7AB3 /* TitleLinkScrollView.podspec */; };
 		14849F0220E0EBED0066A7B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F0120E0EBED0066A7B8 /* AppDelegate.m */; };
 		14849F0520E0EBED0066A7B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F0420E0EBED0066A7B8 /* ViewController.m */; };
 		14849F0820E0EBED0066A7B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14849F0620E0EBED0066A7B8 /* Main.storyboard */; };
@@ -21,9 +22,11 @@
 		14849F2820E0ECCA0066A7B8 /* TitleLinkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F2320E0ECCA0066A7B8 /* TitleLinkView.m */; };
 		14849F2B20E0EEF30066A7B8 /* SelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F2A20E0EEF30066A7B8 /* SelectTableViewController.m */; };
 		14849F2E20E0F28F0066A7B8 /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14849F2D20E0F28F0066A7B8 /* TSViewController.m */; };
+		8936C303A1E42764D482A108 /* libPods-TitleLinkScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C0081AAA3330E1E2CDB4E7 /* libPods-TitleLinkScrollView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		146CDAA120E4CBBE003B7AB3 /* TitleLinkScrollView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TitleLinkScrollView.podspec; sourceTree = SOURCE_ROOT; };
 		14849EFD20E0EBED0066A7B8 /* TitleLinkScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitleLinkScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14849F0020E0EBED0066A7B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14849F0120E0EBED0066A7B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,6 +53,9 @@
 		14849F2A20E0EEF30066A7B8 /* SelectTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectTableViewController.m; sourceTree = "<group>"; };
 		14849F2C20E0F28F0066A7B8 /* TSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
 		14849F2D20E0F28F0066A7B8 /* TSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
+		A362167A1758A18C6F1B5E6A /* Pods-TitleLinkScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TitleLinkScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TitleLinkScrollView/Pods-TitleLinkScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		C1C0081AAA3330E1E2CDB4E7 /* libPods-TitleLinkScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TitleLinkScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FBF5266544D397C4C5329E /* Pods-TitleLinkScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TitleLinkScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TitleLinkScrollView/Pods-TitleLinkScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8936C303A1E42764D482A108 /* libPods-TitleLinkScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +75,8 @@
 			children = (
 				14849EFF20E0EBED0066A7B8 /* TitleLinkScrollView */,
 				14849EFE20E0EBED0066A7B8 /* Products */,
+				2E6862C8BBB34ED54BEFF926 /* Pods */,
+				DDA603B3F57C0CD201340A73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +101,7 @@
 				14849F2C20E0F28F0066A7B8 /* TSViewController.h */,
 				14849F2D20E0F28F0066A7B8 /* TSViewController.m */,
 				14849F0620E0EBED0066A7B8 /* Main.storyboard */,
+				146CDAA120E4CBBE003B7AB3 /* TitleLinkScrollView.podspec */,
 				14849F0920E0EBF20066A7B8 /* Assets.xcassets */,
 				14849F0B20E0EBF20066A7B8 /* LaunchScreen.storyboard */,
 				14849F0E20E0EBF20066A7B8 /* Info.plist */,
@@ -119,6 +129,23 @@
 			path = TitleLinkScrollView;
 			sourceTree = "<group>";
 		};
+		2E6862C8BBB34ED54BEFF926 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6FBF5266544D397C4C5329E /* Pods-TitleLinkScrollView.debug.xcconfig */,
+				A362167A1758A18C6F1B5E6A /* Pods-TitleLinkScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DDA603B3F57C0CD201340A73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1C0081AAA3330E1E2CDB4E7 /* libPods-TitleLinkScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14849F1320E0EBF20066A7B8 /* Build configuration list for PBXNativeTarget "TitleLinkScrollView" */;
 			buildPhases = (
+				46267B6742341A093E467F6D /* [CP] Check Pods Manifest.lock */,
 				14849EF920E0EBED0066A7B8 /* Sources */,
 				14849EFA20E0EBED0066A7B8 /* Frameworks */,
 				14849EFB20E0EBED0066A7B8 /* Resources */,
@@ -177,12 +205,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				14849F0D20E0EBF20066A7B8 /* LaunchScreen.storyboard in Resources */,
+				146CDAA220E4CBBE003B7AB3 /* TitleLinkScrollView.podspec in Resources */,
 				14849F0A20E0EBF20066A7B8 /* Assets.xcassets in Resources */,
 				14849F0820E0EBED0066A7B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46267B6742341A093E467F6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TitleLinkScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		14849EF920E0EBED0066A7B8 /* Sources */ = {
@@ -337,6 +387,7 @@
 		};
 		14849F1420E0EBF20066A7B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FBF5266544D397C4C5329E /* Pods-TitleLinkScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -353,6 +404,7 @@
 		};
 		14849F1520E0EBF20066A7B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A362167A1758A18C6F1B5E6A /* Pods-TitleLinkScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
