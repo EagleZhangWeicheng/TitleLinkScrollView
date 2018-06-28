@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "标题更内容联动 自定义标题 内容封装为viewcontroller集成"
+  s.description  = "标题跟内容联动 缓存"
 
   s.homepage     = "https://github.com/EagleZhangWeicheng/TitleLinkScrollView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "ealge" => "434588175@qq.com" }
+  s.author             = { "Eagle" => "434588175@qq.com" }
   # Or just: s.author    = ""
   # s.authors            = { "" => "" }
   # s.social_media_url   = "http://twitter.com/"
@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-   s.platform     = :ios
+  # s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TitleLinkScrollView/TitleLinkScrollView", "TitleLinkScrollView/TitleLinkScrollView/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "TitleLinkScrollView", "TitleLinkScrollView/**/*.{h,m}"
+  s.exclude_files = "TitleLinkScrollView/TitleLinkScrollView"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -132,5 +132,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "AFNetworking"
 
 end
